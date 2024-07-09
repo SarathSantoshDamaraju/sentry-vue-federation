@@ -1,0 +1,49 @@
+.DS_Store
+node_modules
+node_modules*
+/dist
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+\#*#
+
+.firebase
+*~
+
+firebase-debug.log
+.vercel
+hl-components
+
+# Local Netlify folder
+.netlify
+.vscode/launch.json
+
+# Local surge shell script
+surge.deploy.sh
+
+# python version
+.python-version
+# Sentry Auth Token
+.sentryclirc
+
+# Sentry Auth Token
+.env.sentry-build-plugin
+
+firebase_site_1.json
+firebase_site_2.json
+
+netlify.toml
